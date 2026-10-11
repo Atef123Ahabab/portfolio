@@ -14,12 +14,12 @@ export const profile = {
   tagline:
     "I build and ship scalable, intelligent systems — from CI/CD pipelines to neural networks.",
   location: "Dhaka, Bangladesh",
-  email: "ahababatelf14@gmail.com",
+  email: "ahababatef14@gmail.com",
   phone: "+8801733591548",
   socials: {
     github: "https://github.com/Atef123Ahabab",
     linkedin: "https://linkedin.com/in/atef-ahabab-64226321b",
-    email: "mailto:ahababatelf14@gmail.com",
+    email: "mailto:ahababatef14@gmail.com",
     phone: "tel:+8801733591548",
   },
   about: [

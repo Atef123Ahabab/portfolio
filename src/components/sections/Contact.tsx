@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, ArrowUpRight } from "lucide-react";
+import { Phone, MapPin, Github, Linkedin, ArrowUpRight } from "lucide-react";
 import { profile } from "../../data/profile";
 import SectionHeader from "../ui/SectionHeader";
 

@@ -13,12 +13,25 @@ export default function Hero() {
       <div className="absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-accent/[0.06] blur-3xl" />
 
       <div className="relative section w-full pt-24">
-        <div className="grid md:grid-cols-[1fr_auto] gap-16 items-center">
+        <div className="grid md:grid-cols-[1fr_auto] gap-10 md:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
+            <div className="md:hidden mb-8 flex justify-center">
+              <div className="relative">
+                <div className="absolute -inset-3 rounded-full bg-gradient-to-br from-accent/30 to-transparent blur-2xl" />
+                <div className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-white/10">
+                  <img
+                    src={profileImg}
+                    alt={profile.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
             <p className="font-mono text-xs uppercase tracking-widest text-accent mb-6">
               {profile.greeting}
             </p>
@@ -41,29 +54,16 @@ export default function Hero() {
             </div>
 
             <div className="flex items-center gap-5">
-              <a
-                href={profile.socials.github}
-                target="_blank"
-                rel="noreferrer"
-                className="text-ink-400 hover:text-accent transition"
-                aria-label="GitHub"
-              >
+              <a href={profile.socials.github} target="_blank" rel="noreferrer"
+                 className="text-ink-400 hover:text-accent transition" aria-label="GitHub">
                 <Github size={20} />
               </a>
-              <a
-                href={profile.socials.linkedin}
-                target="_blank"
-                rel="noreferrer"
-                className="text-ink-400 hover:text-accent transition"
-                aria-label="LinkedIn"
-              >
+              <a href={profile.socials.linkedin} target="_blank" rel="noreferrer"
+                 className="text-ink-400 hover:text-accent transition" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a
-                href={profile.socials.email}
-                className="text-ink-400 hover:text-accent transition"
-                aria-label="Email"
-              >
+              <a href={profile.socials.email}
+                 className="text-ink-400 hover:text-accent transition" aria-label="Email">
                 <Mail size={20} />
               </a>
             </div>

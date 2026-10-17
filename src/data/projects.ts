@@ -36,22 +36,6 @@ export const projects: Project[] = [
     year: 2025,
   },
   {
-    id: "jobsphere",
-    title: "JobSphere — AI-Powered Job Portal",
-    description:
-      "Full-stack AI-powered job portal connecting job seekers and employers with smart recommendations and automation.",
-    tech: ["React", "Node.js", "MongoDB", "Express", "Grok API", "Gemini API"],
-    highlights: [
-      "NLP resume parsing from PDF/DOC to extract skills and experience",
-      "Fraud and spam detection with audit logging for admins",
-      "AI skill recommendations via Grok API and auto cover letters via Gemini API",
-      "Deployed on Vercel with MongoDB for data persistence",
-    ],
-    images: [`${import.meta.env.BASE_URL}projects/jobsphere-1.png`],
-    featured: true,
-    year: 2025,
-  },
-  {
     id: "musicgen",
     title: "Unsupervised Neural Network for Multi-Genre Music Generation",
     description:

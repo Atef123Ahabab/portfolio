@@ -3,6 +3,7 @@ export const education = [
     degree: "B.Sc. in Computer Science & Engineering",
     institution: "BRAC University",
     period: "2022 – 2026",
+    detail: "CGPA 3.22",
   
   },
   {

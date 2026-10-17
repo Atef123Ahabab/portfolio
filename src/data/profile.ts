@@ -29,9 +29,8 @@ export const profile = {
   ],
   stats: [
     { label: "Oracle Certifications", value: "8" },
-    { label: "Major Projects", value: "2+" },
+    { label: "Major Projects", value: "4" },
     { label: "Graduation", value: "2026" },
-    
   ],
   cvPath: "/Atef_Ahabab_CV.pdf",
 };

@@ -13,6 +13,23 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "resume-job-portal",
+    title: "Resume & Job Portal Control Center",
+    description:
+      "A comprehensive full-stack platform for job posting, resume parsing, and application management, featuring automated testing suites.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Playwright", "Postman", "Newman"],
+    highlights: [
+      "Built 22 REST endpoints for resume upload/parsing and job management",
+      "Automated E2E UI testing with Playwright using the Page Object Model",
+      "API testing with Postman and Newman (3/3 requests, 5/5 assertions passing)",
+      "Discovered a real security gap (401 auth error) via automated E2E testing",
+    ],
+    images: [`${import.meta.env.BASE_URL}projects/job-portal-1.png`],
+    github: "https://github.com/Atef123Ahabab/471-2-features",
+    featured: true,
+    year: 2025,
+  },
+  {
     id: "jobsphere",
     title: "JobSphere — AI-Powered Job Portal",
     description:

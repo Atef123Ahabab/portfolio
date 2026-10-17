@@ -48,7 +48,6 @@ export const projects: Project[] = [
       "Deployed on Vercel with MongoDB for data persistence",
     ],
     images: [`${import.meta.env.BASE_URL}projects/jobsphere-1.png`],
-    github: "https://github.com/Atef123Ahabab/Career-portal-",
     featured: true,
     year: 2025,
   },

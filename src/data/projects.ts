@@ -46,4 +46,32 @@ export const projects: Project[] = [
     featured: true,
     year: 2025,
   },
+  {
+    id: "any-car-solution",
+    title: "Any Car Solution — Full-Stack Car Rental Platform",
+    description:
+      "Production-ready MERN car rental & servicing platform with real-time chat, AI assistant, role-based dashboards, and a complete end-to-end QA automation suite.",
+    tech: [
+      "React 19",
+      "Vite",
+      "Node.js",
+      "Express 5",
+      "MongoDB",
+      "Socket.io",
+      "JWT",
+      "Playwright",
+      "Newman",
+      "GitHub Actions",
+    ],
+    highlights: [
+      "Full MERN stack with JWT auth, role-based access control, and Socket.io real-time chat",
+      "AI assistant (OpenAI API) for recommendations plus Multer image uploads",
+      "Playwright UI tests (Page Object Model) + 12 Newman API assertions with variable chaining",
+      "CI/CD via GitHub Actions with 22 auto-captured screenshot artifacts",
+    ],
+    images: ["/projects/anycar-1.png"],
+    github: "https://github.com/Atef123Ahabab/any-car-solution",
+    featured: true,
+    year: 2025,
+  },
 ];

@@ -16,6 +16,11 @@ export default function ProjectCard({ project, index }: { project: Project; inde
       }`}
     >
       <div className="relative overflow-hidden bg-bg-card border border-white/10 aspect-video">
+        {project.featured && (
+          <span className="absolute top-3 left-3 z-10 px-2.5 py-1 text-[10px] font-mono uppercase tracking-widest bg-accent/90 text-white">
+            Featured
+          </span>
+        )}
         {project.images[0] ? (
           <img
             src={project.images[0]}

@@ -33,7 +33,6 @@ export const projects: Project[] = [
       `${import.meta.env.BASE_URL}projects/ai-resume-screener/06-screenshot.png`,
       `${import.meta.env.BASE_URL}projects/ai-resume-screener/07-screenshot.png`,
       `${import.meta.env.BASE_URL}projects/ai-resume-screener/08-screenshot.png`,
-      `${import.meta.env.BASE_URL}projects/ai-resume-screener/09-screenshot.png`,
     ],
     github: "https://github.com/Atef123Ahabab/AI-Resume-Screener",
     featured: true,

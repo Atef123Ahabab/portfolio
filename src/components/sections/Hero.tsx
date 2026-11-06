@@ -39,7 +39,8 @@ export default function Hero() {
             <h1 className="font-mono text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.95] tracking-tight mb-8">
               <span className="text-accent mr-4">$</span>
               {profile.name}
-            </h1>
+  <span className="animate-pulse text-accent ml-2">_</span>
+</h1>
 
             <p className="text-lg md:text-xl text-ink-300 max-w-2xl leading-relaxed mb-12">
               {profile.subtitle}

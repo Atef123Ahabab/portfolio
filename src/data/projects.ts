@@ -13,6 +13,30 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "ostad-sqa-assessment",
+    title: "OSTAD SQA Practical Assessment",
+    description:
+      "A comprehensive QA portfolio covering Web UI testing, API test design, database testing, and exploratory defect reporting for AI applications. Features a custom-built interactive dashboard to present QA artifacts.",
+    tech: ["Postman", "MySQL", "Python", "HTML/CSS/JS", "Playwright", "Node.js"],
+    highlights: [
+      "60-min exploratory testing on Claude.ai identifying 4 major/minor bugs",
+      "17 API test cases covering auth, validation, schema, and rate limiting",
+      "MySQL database testing (6 tables) with Foreign Keys, CASCADE, and Rollbacks",
+      "Custom interactive web dashboard presenting 27+ database execution screenshots",
+    ],
+    images: [
+      `${import.meta.env.BASE_URL}projects/ostad-sqa/1_home.png`,
+      `${import.meta.env.BASE_URL}projects/ostad-sqa/2_web_testing.png`,
+      `${import.meta.env.BASE_URL}projects/ostad-sqa/3_api_testing.png`,
+      `${import.meta.env.BASE_URL}projects/ostad-sqa/4_db_gallery.png`,
+      `${import.meta.env.BASE_URL}projects/ostad-sqa/5_db_analysis.png`,
+    ],
+    github: "https://github.com/Atef123Ahabab/YOUR-OSTAD-REPO-LINK-HERE", // Replace with your actual repo link
+    live: `${import.meta.env.BASE_URL}certs/bug report .pdf`,
+    featured: true,
+    year: 2025,
+  },
+  {
     id: "ai-resume-screener",
     title: "AI-Powered Resume Screener",
     description:

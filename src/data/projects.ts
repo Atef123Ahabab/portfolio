@@ -13,6 +13,33 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "ai-resume-screener",
+    title: "AI-Powered Resume Screener",
+    description:
+      "A semi-automated recruitment tool using Qwen 27B (via Groq) to score resumes against multiple Job Descriptions and rank candidates. Built with a 70% automation rate, bypassing CAPTCHA limitations via manual upload.",
+    tech: ["Python", "Streamlit", "Groq API", "OpenAI SDK", "pypdf", "pytest"],
+    highlights: [
+      "AI scoring engine achieving 85/100 accuracy on test CVs",
+      "Batch processing for multiple JDs and CVs with rate-limit handling",
+      "Comprehensive QA suite using pytest and Playwright (4/4 tests passing)",
+      "Secure API key management using .env and python-dotenv",
+    ],
+    images: [
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/01-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/02-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/03-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/04-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/05-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/06-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/07-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/08-screenshot.png`,
+      `${import.meta.env.BASE_URL}projects/ai-resume-screener/09-screenshot.png`,
+    ],
+    github: "https://github.com/Atef123Ahabab/AI-Resume-Screener",
+    featured: true,
+    year: 2025,
+  },
+  {
     id: "resume-job-portal",
     title: "Resume & Job Portal Control Center",
     description:

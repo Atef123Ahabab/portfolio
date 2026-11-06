@@ -13,6 +13,30 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "demo-web-shop-api",
+    title: "Demo Web Shop + API Testing",
+    description:
+      "A comprehensive SQA project featuring UI automation with Playwright (Page Object Model) and API testing with Postman + Newman. Includes GitHub Actions workflow, Allure reporting, and end-to-end checkout validation.",
+    tech: ["Playwright", "Postman", "Newman", "Allure", "Node.js", "GitHub Actions"],
+    highlights: [
+      "UI automation covering invalid login, cart, and full checkout flow (3/3 tests passing)",
+      "API automation for GET /users and PUT /users/{id} (10/10 assertions passing)",
+      "Page Object Model architecture for maintainable test code",
+      "Allure and Playwright HTML reports with screenshots attached",
+    ],
+    images: [
+      `${import.meta.env.BASE_URL}projects/demo-web-shop/01-invalid-login.png`,
+      `${import.meta.env.BASE_URL}projects/demo-web-shop/02-cart.png`,
+      `${import.meta.env.BASE_URL}projects/demo-web-shop/03-order-confirmation.png`,
+      `${import.meta.env.BASE_URL}projects/demo-web-shop/04-allure-report.png`,
+      `${import.meta.env.BASE_URL}projects/demo-web-shop/05-newman-report.png`,
+      `${import.meta.env.BASE_URL}projects/demo-web-shop/06-workflow.png`,
+    ],
+    github: "https://github.com/Atef123Ahabab/ostad-project-2",
+    featured: true,
+    year: 2025,
+  },
+  {
     id: "ostad-sqa-assessment",
     title: "OSTAD SQA Practical Assessment",
     description:
@@ -31,7 +55,7 @@ export const projects: Project[] = [
       `${import.meta.env.BASE_URL}projects/ostad-sqa/4_db_gallery.png`,
       `${import.meta.env.BASE_URL}projects/ostad-sqa/5_db_analysis.png`,
     ],
-    github: "https://github.com/Atef123Ahabab/YOUR-OSTAD-REPO-LINK-HERE", // Replace with your actual repo link
+    github: "https://github.com/Atef123Ahabab/YOUR-OSTAD-REPO-LINK-HERE",
     live: `${import.meta.env.BASE_URL}certs/bug report .pdf`,
     featured: true,
     year: 2025,

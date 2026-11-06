@@ -8,10 +8,13 @@ import Certifications from "./components/sections/Certifications";
 import OtherCertifications from "./components/sections/OtherCertifications";
 import Education from "./components/sections/Education";
 import Contact from "./components/sections/Contact";
+import NeuralBackground from "./components/ui/NeuralBackground";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-bg-base relative">
+      <NeuralBackground />
+      <div className="neural-bg" />
       <div className="cyber-grid" />
       <Navbar />
       <main>

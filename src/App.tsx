@@ -11,7 +11,8 @@ import Contact from "./components/sections/Contact";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-bg-base">
+    <div className="min-h-screen bg-bg-base relative">
+      <div className="cyber-grid" />
       <Navbar />
       <main>
         <Hero />

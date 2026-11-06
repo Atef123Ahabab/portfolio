@@ -25,7 +25,7 @@ export default function ProjectCard({ project, index }: { project: Project; inde
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className={`grid md:grid-cols-2 gap-10 md:gap-16 items-center ${
+      className={`hud-card grid md:grid-cols-2 gap-10 md:gap-16 items-center p-6 md:p-10 ${
         reverse ? "md:[&>*:first-child]:order-2" : ""
       }`}
     >

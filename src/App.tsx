@@ -12,22 +12,25 @@ import NeuralBackground from "./components/ui/NeuralBackground";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-bg-base relative">
+    <div className="min-h-screen relative overflow-hidden">
       <NeuralBackground />
       <div className="neural-bg" />
       <div className="cyber-grid" />
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Certifications />
-        <OtherCertifications />
-        <Education />
-        <Contact />
-      </main>
-      <Footer />
+      
+      <div className="main-content">
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Certifications />
+          <OtherCertifications />
+          <Education />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -38,7 +38,7 @@ export const projects: Project[] = [
   },
   {
     id: "ostad-sqa-assessment",
-    title: "OSTAD SQA Practical Assessment",
+    title: "sqa-testing-arsenal",
     description:
       "A comprehensive QA portfolio covering Web UI testing, API test design, database testing, and exploratory defect reporting for AI applications. Features a custom-built interactive dashboard to present QA artifacts.",
     tech: ["Postman", "MySQL", "Python", "HTML/CSS/JS", "Playwright", "Node.js"],
@@ -56,7 +56,7 @@ export const projects: Project[] = [
       `${import.meta.env.BASE_URL}projects/ostad-sqa/5_db_analysis.png`,
       `${import.meta.env.BASE_URL}projects/ostad-sqa/bug-report.png`,
     ],
-    github: "https://github.com/Atef123Ahabab/YOUR-OSTAD-REPO-LINK-HERE",
+    github: "https://github.com/Atef123Ahabab/sqa-testing-arsenal",
     featured: true,
     year: 2025,
   },
